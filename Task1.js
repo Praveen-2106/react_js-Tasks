@@ -7,7 +7,7 @@ function Task1(){
        <h1>Congratulations</h1> 
        <div className="main">
         <img src={Image} className="profile"/>
-        <h2>Kiran</h2>
+        <h2>Praveen</h2>
         <p>KG college Of Arts And Science</p>
         <img src="https://assets.ccbp.in/frontend/react-js/congrats-card-watch-img.png"/>
        </div>
