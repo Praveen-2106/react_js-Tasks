@@ -1,0 +1,192 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+
+
+/*css for task1*/
+/*h1{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container{
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+}
+.profile{
+  height: 90px;
+  width: 100px;
+  border-radius: 50%;
+}
+.main{
+  background-color: aqua;
+  height: 53vh;
+  weight: 45vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+p{
+  margin: 5px;
+  padding: 5px;
+  color: black;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*Css for task2*/
+
+
+
+/*h1 {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: 100;
+  text-align: center; 
+  margin-top: 150px;
+}
+.Container {
+  background-color:rgb(13, 0, 56);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rcb{
+  height:150px;
+  width:150px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 150px;
+}
+.csk{
+  height:150px;
+  width:150px;
+
+  }
+
+.Card {
+  
+  height: 100vh;
+  width: 100vh;
+  background-size: cover;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}*/
+
+
+body{
+  background-image: url("https://wallpaperaccess.com/full/1217460.jpg");
+  background-size: cover;
+}
+
+
+.social-buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+ h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.like-button {
+  background-color: #f1c40f;
+  color: white;
+}
+
+.comment-button {
+  background-color: white;
+  color: black;
+}
+
+.share-button {
+  background-color: #3498db;
+  color: white;
+}
+
+.like-button:hover {
+  background-color: #d4ac0d;
+}
+
+.comment-button:hover {
+  background-color: #e0e0e0;
+}
+
+.share-button:hover {
+  background-color: #2980b9;
+}
+
+
+
+
